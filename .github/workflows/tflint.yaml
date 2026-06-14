@@ -1,6 +1,8 @@
 name: TFLint
 on:
-  - pull_request
+  pull_request:
+    paths:
+      - 'infrastructure/**'
 
 jobs:
   tflint:

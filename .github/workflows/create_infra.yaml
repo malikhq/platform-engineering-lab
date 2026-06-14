@@ -4,12 +4,16 @@
 # Note: The Terraform apply step is commented out for safety. Uncomment it to enable automatic deployment on push to main.
 
 name: Terraform-CI  
-
 on:
   push:
     branches:
       - main
+    paths:
+      - 'infrastructure/**'
+
   pull_request:
+    paths:
+      - 'infrastructure/**'
 env:
   TF_WORKING_DIR: ./infrastructures/bootstrap # update this path to your actual Terraform directory
 permissions:
