@@ -9,6 +9,7 @@ The source of documentation is located in the `documentations/` directory.
 
 ```text
 .
+
 |-- ai-workflows/       # Reserved for AI workflow automation and experiments
 |-- apps/               # Reserved for application workloads and service manifests
 |-- documentations      # Reserved for documentation
