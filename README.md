@@ -35,7 +35,6 @@ The source of documentation is located in the `documentations/` directory.
 `-- .terraform-docs.yml      # terraform-docs configuration
 ```
 
-
 The top-level `ai-workflows`, `apps`, `gitops`, `helm`, `monitoring`, and `security` directories are currently placeholders. They are included to show the intended platform layout as the lab grows beyond the base Terraform infrastructure.
 
 ## Documentation
