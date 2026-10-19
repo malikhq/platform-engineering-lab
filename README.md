@@ -5,6 +5,7 @@ It includes Terraform infrastructure, application scaffolding, GitOps patterns, 
 
 The source of documentation is located in the `documentations/` directory.
 
+
 ## Project Structure
 
 ```text
